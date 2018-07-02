@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+'ibmcloud のdeploy command
+`
+ibmcloud api https://api.ng.bluemix.net
+ibmcloud login -u user_name -o org_name -s space_name
+ibmcloud app push toys-app -b https://github.com/cloudfoundry/ruby-buildpack.git
+`
+
